@@ -160,4 +160,8 @@
         background-color: var(--topColor);
         font-size: 80px;
     }
+    .attribution{
+        color: black;
+        margin-left: 20%;
+    }
     }
