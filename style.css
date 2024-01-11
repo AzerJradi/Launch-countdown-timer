@@ -1,0 +1,163 @@
+:root{
+    --topColor:#2C2C44;
+    --bottomColor:#34364F;
+    --TopRed:#D64D71;
+    --bottomRed:#F1607F;
+    --GreyToWrite:#787797;
+}
+@media (min-width: 1024px) and (max-width:1920px){
+*{
+    background-image: url(./images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 360px ;
+    background-size: 100%;
+    background-color: #201E2B;
+}
+.alllll{
+    margin-left: 15%;
+    margin-top: -350px;
+}
+.socialMedia{
+    margin-left: 45%;
+    margin-top: 150px;
+}
+.pin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.num1{
+    color: var(--GreyToWrite);
+    font-size: 30px;
+    background-color: transparent;
+    font-family: Verdana, sans-serif;
+}
+#days{
+    margin-top: -80px;
+    margin-left: 20%;
+}
+#Hours{
+    margin-top: -80px;
+    margin-left: 35%;
+}
+#Minutes{
+    margin-top: -76px;
+    margin-left: 50%;
+}
+#mounths{
+
+}
+#Seconds{
+    margin-top: -77px;
+    margin-left: 65%;
+}
+#one{
+    margin-left: 20%;
+    margin-top: -178Px;
+}
+#two{
+    margin-left: 35%;
+    margin-top: -180Px;
+}
+#three{
+    margin-left: 51%;
+    margin-top: -180Px;
+}
+#four{
+    margin-left: 66%;
+    margin-top: -180Px;
+}
+#five{
+    margin-left: 30px;
+    margin-top: -180px;
+}
+#title{
+    color: #F9F8F9;
+    background-color: transparent;
+    font-family: Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 150px;
+    margin-left: 27.5%;
+    letter-spacing: 10px;
+}
+.valeur{
+    color: var(--bottomRed);
+    background-color: var(--topColor);
+    font-size: 80px;
+}
+}
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 736px){
+    *{
+        background-color: #201E2B;
+    }
+    .alllll{
+        margin-left: 15%;
+        margin-top: -350px;
+    }
+    .socialMedia{
+        margin-left: 30%;
+        margin-top: -50px;
+    }
+    .pin{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .num1{
+        color: var(--GreyToWrite);
+        font-size: 30px;
+        background-color: transparent;
+        font-family: Verdana, sans-serif;
+    }
+    #days{
+        margin-top: 50px;
+        margin-left: 40%;
+    }
+    #Hours{
+        margin-top: -20px;
+        margin-left: 40%;
+    }
+    #Minutes{
+        margin-top: -20px;
+        margin-left: 40%;
+    }
+    #mounths{
+    margin-top: -520px;
+    margin-left: 40%;
+    }
+    #Seconds{
+        margin-top: -20px;
+        margin-left: 40%;
+    }
+    #one{
+        margin-top: -100px;
+    }
+    #two{
+        margin-top: -100px;
+    }
+    #three{
+        margin-top: -100px;
+    }
+    #four{
+        margin-top: -100px;
+        background-color: transparent;
+    }
+    #five{
+        margin-top: -100px;
+    }
+    #title{
+        color: #F9F8F9;
+        background-color: transparent;
+        font-family: Verdana, sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 9%;
+    }
+    .valeur{
+        color: var(--bottomRed);
+        background-color: var(--topColor);
+        font-size: 80px;
+    }
+    }
